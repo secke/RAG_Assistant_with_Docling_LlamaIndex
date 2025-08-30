@@ -1,0 +1,40 @@
+# Core RAG dependencies
+llama-index
+llama-index-llms-llama-cpp
+llama-index-embeddings-huggingface
+
+# Document processing
+docling
+docling-core
+pymupdf
+python-docx
+
+# LLM serving
+llama-cpp-python
+
+# UI and web
+gradio
+streamlit
+
+# Vector database
+chromadb
+faiss-cpu
+
+# Utilities
+transformers
+torch
+sentence-transformers
+numpy
+pandas
+python-dotenv
+tqdm
+pillow
+pytesseract
+
+# File handling
+pypdf2
+textract
+openpyxl
+
+# Logging and monitoring
+loguru

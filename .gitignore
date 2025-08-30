@@ -1,0 +1,187 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+rag_env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# RAG Application specific
+# Model files (usually large, download separately)
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.pth
+
+# Data directories (contain user documents)
+data/
+!data/README.txt
+!data/.gitkeep
+
+# Vector store (generated, can be recreated)
+vector_store/
+!vector_store/.gitkeep
+
+# Processed data cache
+processed_data/
+!processed_data/.gitkeep
+
+# Logs
+logs/
+*.log
+!logs/.gitkeep
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Chat history exports
+chat_history_*.json
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
+
+# Docker
+.dockerignore
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+backup_*/
+
+# Large files and downloads
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.cert
+ssl/
+
+# Monitoring data
+prometheus_data/
+grafana_data/
+
+# Node.js (if using any frontend tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# Tensorboard
+runs/
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
